@@ -8,7 +8,6 @@ A simple student database management web applicatin that will help you manage to
 Features: Add Students, Search Students, Delete Student Info, Update Student Info, List all Students.
 
 Built with: **Python Flask, Python Libraries: flask and MySQL, HTML, CSS, and jQuery**
-Modules Installed: pip install flask, flask-mysqldb, pyyaml
 
 Modules Installed:
 - [ **pip install flask** ] 
