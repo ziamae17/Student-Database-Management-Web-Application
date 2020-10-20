@@ -5,9 +5,16 @@ About Student Cloud
 (Student Database Management Web Application)
 A simple student database management web applicatin that will help you manage to your students information.
 
-Built with: Python Flask, Python Libraries: flask and MySQL, HTML, CSS, and jQuery. 
-
 Features: Add Students, Search Students, Delete Student Info, Update Student Info, List all Students.
+
+Built with: **Python Flask, Python Libraries: flask and MySQL, HTML, CSS, and jQuery**
+Modules Installed: pip install flask, flask-mysqldb, pyyaml
+
+Modules Installed:
+- [ **pip install flask** ] 
+- [ **pip install mysqldb** ] 
+- [ **pip install WTForms** ] 
+- [ **pip install passlib** ] 
 
 ## Student Cloud User Guide
 Student Cloud User Guide:
@@ -44,6 +51,10 @@ Student Cloud User Guide:
    ![delete](https://user-images.githubusercontent.com/60618940/96553979-864f7900-12e8-11eb-961c-e624793e2382.jpg)
    
 7. If you want to **logout**, just simply click the **'*Logout*'** on the navbar. 
+   ![delete](https://user-images.githubusercontent.com/60618940/96554422-1a214500-12e9-11eb-90a4-ceddbe5fe219.jpg)
+   
+
+
 
 
 
