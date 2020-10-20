@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<style>
+.paddingTB60 {padding:60px 0px 60px 0px;}
+.about-title h1 {color: #535353; font-size:45px;font-weight:600;}
+.about-title span {color: #AF0808; font-size:45px;font-weight:700;}
+.about-title h3 {color: #535353; font-size:23px;margin-bottom:27px;}
+.about-title p {color: #7a7a7a;line-height: 1.8;margin: 40px 0 15px;}
+.about-paddingB {padding-bottom: 0px;}
+img {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  width: 30%;
+}
+    
+</style>
+    
+    <div class="about-section paddingTB60 gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-6">
+                    <div class="about-title clearfix">
+                        <h1><img src="{{url_for('static', filename = 'logo.png')}}"></h1>
+                        <h1 class="about-paddingB"> Welcome to <span>Student Cloud</span></h1>
+                        <h3>(Student Database Management Web Application)</h3> 
+                        {% if session.logged_in == NULL %}
+                            <a href="/register" class="btn btn-primary btn-lg">Register</a>
+                            <a href="/login" class="btn btn-success btn-lg">Login</a>
+                        {% endif %}
+                    </div>
+                </div>	
+            </div>
+            </div>
+        </div>
+{% endblock %}
