@@ -50,7 +50,8 @@ Student Cloud User Guide:
    ![delete](https://user-images.githubusercontent.com/60618940/96553979-864f7900-12e8-11eb-961c-e624793e2382.jpg)
    
 7. If you want to **logout**, just simply click the **'*Logout*'** on the navbar. 
-   ![delete](https://user-images.githubusercontent.com/60618940/96554422-1a214500-12e9-11eb-90a4-ceddbe5fe219.jpg)
+   ![logout1](https://user-images.githubusercontent.com/60618940/96556587-bb10ff80-12eb-11eb-9a61-aad304f9c37e.jpg)
+   ![logout](https://user-images.githubusercontent.com/60618940/96556395-81d88f80-12eb-11eb-8e7a-ac50b309ba7d.jpg)
    
 
 
