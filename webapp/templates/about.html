@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<style>
+.paddingTB60 {padding:60px 0px 60px 0px;}
+.about-title h1 {color: #535353; font-size:45px;font-weight:600;}
+.about-title span {color: #AF0808; font-size:45px;font-weight:700;}
+.about-title h3 {color: #535353; font-size:23px;margin-bottom:24px;}
+.about-title p {color: #7a7a7a;line-height: 1.8;margin: 0 0 15px;}
+.about-paddingB {padding-bottom: 12px;}
+.about-img {padding-left: 57px;}
+
+/* Social Icons */
+.about-icons {margin:48px 0px 48px 0px ;}
+.about-icons i{margin-right: 10px;padding: 0px; font-size:35px;color:#323232;box-shadow: 0 0 3px rgba(0, 0, 0, .2);}
+.about-icons li {margin:0px;padding:0;display:inline-block;}
+#social-fb:hover {color: #3B5998;transition:all .001s;}
+#social-gh:hover {color: #d34836;transition:all .001s;}
+
+
+</style>
+
+    <div class="about-section paddingTB60 gray-bg">
+        <div class="container">
+            <div class="row">
+				<div class="col-md-7 col-sm-6">
+					<div class="about-title clearfix">
+                        <h1><img src="{{url_for('static', filename = 'logo.png')}}"></h1>
+                        <h1>About <span>Student Cloud</span></h1>
+							<h3>(Student Database Management Web Application)</h3>
+							<p class="about-paddingB">A simple student database management web applicatin (using Flask and MySQL) that will help you manage to your students information. </p>
+                            <p>Built with: Python, Python Libraries: flask and MySQL.</p>
+                            <p>Features: Add Students, Search Students, Delete Student Info, Update Student Info, List all Students.</p>
+						<div class="about-icons"> 
+                            <ul >
+                            <li><a href="https://www.facebook.com/zziamaea"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a> </li>
+                            <li> <a href="https://github.com/ziamae17"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a> </li>
+                            </ul>       
+	                    </div>
+					</div>
+				</div>	
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
